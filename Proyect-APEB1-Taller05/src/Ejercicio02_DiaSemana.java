@@ -5,7 +5,6 @@ import java.util.Scanner;
  * @author Valeria, Joel
  * @version 1.0
  */
-
 public class Ejercicio02_DiaSemana {
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);
@@ -38,11 +37,12 @@ public class Ejercicio02_DiaSemana {
                 msjDia = "error";
                 throw new AssertionError();
         }//FIN DE SENTENCIA DE SELECCION
-        System.out.println("El nro. " + dia + "corresponde a: "+ msjDia);        
+        System.out.println("El nro. " + dia + " corresponde a: "+ msjDia);        
     }       
   }
-
 /***
  * EVIDENCIA DEL RUN:
- * Pegue aquí la evidencia de la ejecución del .java
+Deme nro. dia (1-7: )4
+El nro. 4 corresponde a: Jueves
+BUILD SUCCESSFUL (total time: 2 seconds)
  */
