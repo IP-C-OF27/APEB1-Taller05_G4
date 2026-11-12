@@ -10,14 +10,17 @@ public class Ejercicio04_Descuento{
     public static void main(String[] args) {
         double precio, factura;
         Scanner tcl = new Scanner(System.in);
-        System.out.println("Dame precio: ");
+        System.out.print("Dame precio: ");
         precio = tcl.nextDouble();
         factura = precio;
         if (precio > 100)
             precio *= 0.9;
+        System.out.println("El precio final es: "+precio);
     }
 }
 /***
  * EVIDENCIA DEL RUN:
- * Pegue aquí la evidencia de la ejecución del .java
+Dame precio: 200
+El precio final es: 180.0
+BUILD SUCCESSFUL (total time: 2 seconds)
  */

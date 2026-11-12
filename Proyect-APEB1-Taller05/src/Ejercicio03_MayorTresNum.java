@@ -1,7 +1,7 @@
 import java.util.Scanner;
 /**
  * Ejercicio 01: "Texto del enunciado del ejercicio/problema...."
- * @author NombreAutor
+ * @author Joel Valdez, Valeria Agreda
  * @version 1.0
  */
 public class Ejercicio03_MayorTresNum {
