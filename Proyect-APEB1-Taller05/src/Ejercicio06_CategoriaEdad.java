@@ -10,13 +10,13 @@ public class Ejercicio06_CategoriaEdad{
         Scanner tcl = new Scanner (System.in);
         int edad;
         String categoria;
-        System.out.println("Ingresa tu edad: ");
+        System.out.print("Ingresa tu edad: ");
         edad = tcl.nextInt();
         if (edad <= 11){
             categoria = "niño";
         }else if (edad <= 17){
             categoria = "adolescente";
-        }if (edad >18 ){
+        } else {
             categoria = "adulto";
         }
         System.out.println("Tu categoria de edad es: " + categoria);       
