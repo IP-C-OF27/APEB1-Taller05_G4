@@ -1,6 +1,7 @@
 import java.util.Scanner;
 /**
- * Ejercicio 01: "Texto del enunciado del ejercicio/problema...."
+ * Ejercicio 05: "Año Bisiesto: Comprobar si un año ingresado es bisiesto o no.
+ * Si es bisiesto, mostrar un mensaje especial."
  * @author Joel Valdez, Valeria Agreda
  * @version 1.0
  */
