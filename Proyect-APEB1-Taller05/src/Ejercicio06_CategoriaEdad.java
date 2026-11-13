@@ -12,13 +12,14 @@ public class Ejercicio06_CategoriaEdad{
         String categoria;
         System.out.print("Ingresa tu edad: ");
         edad = tcl.nextInt();
-        if (edad <= 11){
-            categoria = "niño";
-        }else if (edad <= 17){
-            categoria = "adolescente";
-        } else {
-            categoria = "adulto";
-        }
+        if (edad < 0){
+            categoria = "edad no valida";
+            }else if (edad <= 11){
+                categoria = "niño";
+                }else if (edad <= 17){
+                    categoria = "adolescente";
+                    } else {
+                    categoria = "adulto";}
         System.out.println("Tu categoria de edad es: " + categoria);       
     }
 }
