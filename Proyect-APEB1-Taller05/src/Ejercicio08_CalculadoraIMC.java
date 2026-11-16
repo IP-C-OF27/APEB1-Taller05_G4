@@ -11,9 +11,9 @@ import java.util.Scanner;
         Scanner tcl = new Scanner (System.in);
         double peso,altura,imc;
         String categoria = "";
-        System.out.println("Ingresa tu peso en kilogramos: ");
+        System.out.print("Ingresa tu peso en kilogramos: ");
         peso = tcl.nextDouble();
-        System.out.println("Ingresa tu altura en metros: ");
+        System.out.print("Ingresa tu altura en metros: ");
         altura = tcl.nextDouble();
         imc = peso / (altura * altura);
         if (imc < 18.5){
@@ -37,5 +37,9 @@ import java.util.Scanner;
     }
 /***
  * EVIDENCIA DEL RUN:
- * Pegue aquí la evidencia de la ejecución del .java
+Ingresa tu peso en kilogramos: 71
+Ingresa tu altura en metros: 1,75
+Tu imc es: 23.183673469387756
+Tu categoria de peso es: Peso Normal
+BUILD SUCCESSFUL (total time: 7 seconds)
  */

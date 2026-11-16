@@ -14,11 +14,11 @@ public class Ejercicio12_CalculoImpuestos {
         Scanner tcl = new Scanner(System.in);
         String marca, origen;
         double costo, precioventa, impuesto = 0;
-        System.out.println("Ingrese marca de vehiculo: ");
+        System.out.print("Ingrese marca de vehiculo: ");
         marca = tcl.next();
-        System.out.println("Ingrese origen de vehiculo: ");
+        System.out.print("Ingrese origen de vehiculo: ");
         origen = tcl.next();
-        System.out.println("Ingrese costo de vehiculo: ");
+        System.out.print("Ingrese costo de vehiculo: ");
         costo = tcl.nextDouble();
         switch (origen){
             case "Alemania":
@@ -40,9 +40,14 @@ public class Ejercicio12_CalculoImpuestos {
       precioventa = impuesto + costo;
         System.out.println("El impuesto es: " + impuesto);
         System.out.println("El precio de venta es: " + precioventa);
-}   
+    }   
 }
 /***
  * EVIDENCIA DEL RUN:
- * Pegue aquí la evidencia de la ejecución del .java
+Ingrese marca de vehiculo: Jac
+Ingrese origen de vehiculo: China
+Ingrese costo de vehiculo: 18000
+El impuesto es: 0.0
+El precio de venta es: 18000.0
+BUILD SUCCESSFUL (total time: 20 seconds)
  */

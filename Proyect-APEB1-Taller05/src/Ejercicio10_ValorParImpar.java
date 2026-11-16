@@ -10,7 +10,7 @@ public class Ejercicio10_ValorParImpar{
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);
         int numero;
-        System.out.println("Ingrese el numero: ");
+        System.out.print("Ingrese el numero: ");
         numero = tcl.nextInt();
         if (numero %2 == 0)
            System.out.println("El numero es par");
@@ -20,5 +20,7 @@ public class Ejercicio10_ValorParImpar{
 }
 /***
  * EVIDENCIA DEL RUN:
- * Pegue aquí la evidencia de la ejecución del .java
+Ingrese el numero: 12
+El numero es par
+BUILD SUCCESSFUL (total time: 4 seconds)
  */
