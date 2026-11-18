@@ -1,6 +1,7 @@
 import java.util.Scanner;
 /**
- * Ejercicio 01: "Texto del enunciado del ejercicio/problema...."
+ * Ejercicio 03: "Mayor de tres números: Dados tres números distintos,
+ * determinar cuál es el mayor."
  * @author Joel Valdez, Valeria Agreda
  * @version 1.0
  */
